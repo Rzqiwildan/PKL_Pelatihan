@@ -13,7 +13,21 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                poppins: ["Poppins", "sans-serif"],
             },
+            colors :{
+                cblack :{
+                    0:"#001321", //Footer
+                    1:"#333333" // Font Judul
+                },
+                cgrey :{
+                    0:"#666666" // Deskripsi
+                },
+                cblue :{
+                    0 :"#2EA3F2", // Text Link
+                    1 :"#1B86B7" // Icon
+                }
+            }
         },
     },
     plugins: [],
